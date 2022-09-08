@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void)
+/* This is a comment */
+void main(void)
 {
- return (0);
 }
