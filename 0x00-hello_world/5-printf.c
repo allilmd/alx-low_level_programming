@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: with proper grammar, but the outcome is a piece of art,
- * return : Always zero
+ * return - Always zero
  */
 int main(void)
 {
