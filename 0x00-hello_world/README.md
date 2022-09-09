@@ -1,1 +1,1 @@
-101-quote
+print
