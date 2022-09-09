@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description - sizes
+ * Description: 'prints the size of various types on the computer it is compiled'
  *
  * return - Always 0 (success)
  */
