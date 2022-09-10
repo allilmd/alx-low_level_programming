@@ -3,21 +3,21 @@
 /**
  * main - Entry point
  *
- * Description : 6-print_numberz.c
+ * Description: print_numberz.c
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int i = 0;
+	int i = 48;
 
-	while (i <= 9)
+	while (i < 58)
 	{
 		putchar(i);
 		i++;
 	}
 
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
