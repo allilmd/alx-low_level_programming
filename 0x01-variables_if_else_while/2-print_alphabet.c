@@ -8,13 +8,13 @@
  * Return: Always 0 (success)
  */
 
-int main()
+int main(void)
 {
 	char ch = 'a';
 
-	while(ch <= 'z')
+	while (ch <= 'z')
 	{
-	putchar( ch );
+	putchar(ch);
 	ch++;
 	}
 	putchar(10);
