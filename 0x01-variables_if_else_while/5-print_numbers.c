@@ -7,17 +7,15 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main()
 {
 	int i;
 
-	i = 0;
-
-	while(i < 10)
+	for(i=0; i <=9; i++)
 	{
-		putchar(i);
-		i = i + 1;
+		printf("%d", i);
 	}
+
 	putchar(10);
 	return (0);
 }
