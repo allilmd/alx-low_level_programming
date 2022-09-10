@@ -7,7 +7,7 @@
  * Return: Always 0 (success)
  */
 
-int main ()
+int main(void)
 {
 	char i;
 	for (i = 'a'; i <= 'z'; i++)
@@ -19,5 +19,6 @@ int main ()
 	putchar(i);
 	}
 
+	putchar(10);
 	return (0);
 }
