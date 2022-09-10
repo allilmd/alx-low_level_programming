@@ -10,7 +10,12 @@
 
 int main()
 {
-	putchar(101);
-	putchar(10);
+	char ch = 'a';
+
+	while(ch <= 'z')
+	{
+	putchar( ch );
+	ch++;
+	}
 	return (0);
 }
