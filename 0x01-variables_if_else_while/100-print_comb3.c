@@ -11,6 +11,7 @@ int main(void)
 {
 	int i;
 	int b;
+
 	for (i = 48; i <= 56; i++)
 	{
 		for (b = 49; b <= 57; b++)
