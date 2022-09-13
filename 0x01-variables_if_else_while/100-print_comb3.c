@@ -10,16 +10,16 @@
 int main(void)
 {
 	int i;
-	int c;
+	int b;
 	for (i = 48; i <= 56; i++)
 	{
-		for (c = 49; c <= 57; c++)
+		for (b = 49; b <= 57; b++)
 		{
-			if (c > i)
+			if (b > i)
 			{
 				putchar(i);
-				putchar(c);
-				if (i != 56 || c != 57)
+				putchar(b);
+				if (i != 56 || b != 57)
 				{
 					putchar(',');
 					putchar(' ');
@@ -27,4 +27,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
