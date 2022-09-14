@@ -1,1 +1,1 @@
-print lower case
+2-print_alphabet_x10.c
