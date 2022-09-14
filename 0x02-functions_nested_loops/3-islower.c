@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower: checks for lowercase
+ * _islower - checks for lowercase
  *
  * @c: the caharacter to check
  *
@@ -10,5 +10,5 @@
 
 int _islower(int c)
 {
-	return(c >= 'a' && c <= 'z');
+	return (c >= 'a' && c <= 'z');
 }
