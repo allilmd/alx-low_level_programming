@@ -1,1 +1,1 @@
-putchar
+print lower case
