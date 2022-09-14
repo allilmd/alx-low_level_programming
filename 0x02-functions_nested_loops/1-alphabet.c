@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print alphabets
+ * print_alphabet: print alphabets
  *
  * Return: Always 0 (success)
  */
