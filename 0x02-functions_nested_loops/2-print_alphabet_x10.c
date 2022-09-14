@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet_x10 : print a - z ten times
+ * print_alphabet_x10 - print a - z ten times
  *
  */
 
 void print_alphabet_x10(void)
 {
 	int i = 0;
-	char alphabet = 'a';
+	char alphabet;
 
-	while(i < 10)
+	while (i < 10)
 	{
-		while(alphabet <= 'z')
+		alphabet = 'a';
+		while (alphabet <= 'z')
 		{
 			_putchar(alphabet);
 			alphabet++;
