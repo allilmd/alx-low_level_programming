@@ -3,9 +3,9 @@
 /**
  * print_sign - prints the sihn of a number
  *
- * @n - The integer to be checked
+ * @n: The integer to be checked
  *
- * Return: 1 if n is > 0. 0 if n is= 0. -1 if n is < 0
+ * Return: 1 if greater than 0. 0 if equals 0. -1 if less than 0
  */
 
 int print_sign(int n)
