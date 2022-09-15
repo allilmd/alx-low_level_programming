@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sign - prints the sihn of a number
+ * print_sign - prints the sihn of a number
  *
  * @n - The integer to be checked
  *
@@ -22,6 +22,6 @@ int print_sign(int n)
 	{
 		_putchar(48);
 	}
-	return (-1);
+	return (0);
 }
 
