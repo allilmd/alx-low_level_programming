@@ -1,1 +1,1 @@
-Multiply two inegers
+read numbers
