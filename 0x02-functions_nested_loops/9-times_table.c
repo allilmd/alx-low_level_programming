@@ -9,7 +9,9 @@ void times_table(void)
 {
 	int a, b;
 
-	for (a = 9)
+	a = 9;
+
+	while (a < 10)
 	{
 		b = 0;
 		while (b <= 12)
@@ -19,6 +21,6 @@ void times_table(void)
 			_putchar('.');
 			b++;
 		}
+		a++;
 	}
 }
-
