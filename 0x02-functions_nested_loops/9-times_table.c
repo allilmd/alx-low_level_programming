@@ -16,7 +16,7 @@ void times_table(void)
 		b = 0;
 		while (b <= 12)
 		{
-			c = b * a
+			c = b * a;
 			_putchar(c + '0');
 			_putchar(',');
 			_putchar(' ');
