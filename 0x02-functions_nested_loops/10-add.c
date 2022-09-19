@@ -2,8 +2,8 @@
 
 /**
  * add - adds two intehers
- * @b - integer 2
- * @a - integer 1
+ * @b : integer two
+ * @a : integer one
  * Return: the result of the addition
  */
 
