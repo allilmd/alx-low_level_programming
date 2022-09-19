@@ -3,7 +3,6 @@
 /**
  * print_numbers - from 0 to 9, followed by a new line
  *i
-Return: Always (0) success
  */
 void print_numbers(void)
 {
@@ -15,5 +14,4 @@ void print_numbers(void)
 		c++;
 	}
 	_putcha('\n')
-	return (0);
 }
