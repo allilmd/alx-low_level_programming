@@ -2,13 +2,13 @@
 
 /**
  * print_numbers - from 0 to 9, followed by a new line
- *i
+ *
  */
 void print_numbers(void)
 {
-	int c = '0';
+	int c = 0;
 
-	while (c >= '9')
+	while (c >= 9)
 	{
 		_putchar(c);
 		c++;
