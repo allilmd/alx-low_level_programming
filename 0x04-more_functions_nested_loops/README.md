@@ -1,1 +1,1 @@
-checks for upper or lower case
+checks for numbers 0 to 9
