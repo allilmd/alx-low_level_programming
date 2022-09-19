@@ -1,1 +1,1 @@
- causes infinite loop averted
+find greatest number
