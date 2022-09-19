@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table(void) : prints the 9 times table
+ * times_table(void) - prints the 9 times table
  * starting from 0
  */
 
@@ -16,11 +16,10 @@ void times_table(void)
 		b = 0;
 		while (b <= 12)
 		{
-			_putchar((b * a) + '0');
-			_putchar(',');
+			_putchar((a * b) + '0');
+			_putchar(", ");
 			b++;
 		}
-		
 		_putchar('\n');
 		a++;
 	}
